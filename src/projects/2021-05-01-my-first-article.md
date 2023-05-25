@@ -4,7 +4,7 @@ description: bla een description
 author: Cato Speltincx
 date: 2023-05-23T14:56:13.897Z
 tags:
-  - "post"
+  - project-simple
 image: /assets/blog/font_1.png
 imageAlt: This is a test
 ---
