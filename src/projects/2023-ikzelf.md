@@ -1,5 +1,5 @@
 ---
-title: new article
+title: Mona Thijs
 description: "hello bla"
 ---
 
