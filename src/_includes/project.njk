@@ -1,14 +1,11 @@
 ---
 title: Mona Thijs
-layout: "base.njk"
+layout: 'base.njk'
 ---
 
 <div class="start-frame">
   <p>this is a project with more click options</p>
-  <ul role="list" class="articles__list flow">
-    {%- for post in collections.post | reverse -%}
-      <li>
-        <article class="snippet">
+  {# <article class="snippet">
           <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="snippet__image"/>
           <h3 class="snippet__title">
             <a href="{{ post.url }}">
@@ -22,9 +19,6 @@ layout: "base.njk"
             <span>{{ post.date | postDate }}</span>
           </p>
           <p class="snippet__body">{{ post.data.description }}</p>
-          <a href="{{ post.url }}" class="btn btn--primary">lees verder</a>
-        </article>
-      </li>
-    {%- endfor -%}
-  </ul>
+        </article> #}
+  {{ content | safe }}
 </div>
