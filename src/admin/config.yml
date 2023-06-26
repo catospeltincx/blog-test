@@ -11,7 +11,6 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - required: false;
   - name: "text-project"
     label: "Text Project"
     folder: "src/" #plek beschijven waar nieuwe uploads terecht komen
