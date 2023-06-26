@@ -23,7 +23,6 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
-      - required: false;
   - name: "project"
     label: "Project"
     folder: "src/projects" #plek beschijven waar nieuwe uploads terecht komen
@@ -38,4 +37,3 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - required: false;
