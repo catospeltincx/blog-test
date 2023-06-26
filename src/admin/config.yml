@@ -13,7 +13,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "text-project"
     label: "Text Project"
-    folder: "src/projects" #plek beschijven waar nieuwe uploads terecht komen
+    folder: "src/" #plek beschijven waar nieuwe uploads terecht komen
     create: true #ervoor zorgen dat er posts kunnen worden bijgemaakt
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
