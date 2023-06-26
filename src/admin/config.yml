@@ -11,7 +11,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-    - name: "text-project"
+  - name: "text-project"
     label: "Text Project"
     folder: "src/projects" #plek beschijven waar nieuwe uploads terecht komen
     create: true #ervoor zorgen dat er posts kunnen worden bijgemaakt
@@ -36,4 +36,3 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-
