@@ -37,7 +37,6 @@ collections:
           label: "Featured Image",
           name: "image",
           widget: "image",
-          default: "false",
           required: "false",
         }
       - { label: "Image caption", name: "imageAlt", widget: "string" }
