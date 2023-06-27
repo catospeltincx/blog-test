@@ -1,6 +1,6 @@
 ---
 title: Vier Clownvissen
-image: f
+image: /assets/imgs/sneeuw0001.jpg
 imageAlt: X
 ---
 **Vier clownsvissen schreef ik in het kader van mijn opleiding woordkunst. Het werd gepubliceerd in De magmakamer (27 juni 2019), een editie van het literaire tijdschrift DW B, gecureerd door Charlotte Van Den broeck en Jeroen Dera.**
