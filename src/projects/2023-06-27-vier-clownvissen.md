@@ -1,8 +1,10 @@
 ---
 title: Vier Clownvissen
-image: f
+image: /assets/imgs/article-2.jpg
 imageAlt: X
+layout: project.njk
 ---
+
 **Vier clownsvissen schreef ik in het kader van mijn opleiding woordkunst. Het werd gepubliceerd in De magmakamer (27 juni 2019), een editie van het literaire tijdschrift DW B, gecureerd door Charlotte Van Den broeck en Jeroen Dera.**
 
 In het blauwe schijnsel van de verlichte aquaria ligt mijn vader met open mond. Het vissengrotje ligt in stukken naast zijn dij. De huis, tuin – en keukengoochelaar. Klap in je handen en uit zijn mond springt een narretje.

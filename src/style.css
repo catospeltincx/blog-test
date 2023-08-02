@@ -3,35 +3,19 @@
   src: url(assets/fonts/Adelphe-FlorealRegular.ttf);
 }
 
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 /* Remove default margin */
 body,
-h1,
-h2,
-h3,
-h4,
-p {
+p,
+h1
+{
   margin: 0;
 }
 
-/* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth;
+.mona-thijs {
+  color: rgb(251, 175, 209);
+  background: black;
+  padding: 3px;
 }
-
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-
 
 /* Make images easier to work with */
 img,
@@ -40,9 +24,39 @@ picture {
   display: block;
 }
 
+/* //////////////////////
+HEADER
+  /////////////////////// */
+.side-bar {
+  text-decoration: none;
+
+  background-color: rgb(241, 242, 228);
+  padding: 1.5rem;
+  width: 35%;
+  height: 100vh;
+}
+
+ul, .projects_list {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  
+}
+
+li, .project-list{
+  list-style-type: none;
+  padding: 10px;
+}
 
 /* //////////////////////
-  GENERAL
+FOOTER
+  /////////////////////// */
+footer {
+  background-color: red;
+}
+
+
+/* //////////////////////
+???
   /////////////////////// */
 a {
   text-decoration: none;
@@ -67,27 +81,14 @@ body {
 
 .start-frame {
   min-height: calc(100vh - 70px);
-  width: 85%;
+  width: 60%;
   position: absolute;
   top: 5%;
-  left: 18%;
+  left: 40%;
   flex: 1 0 auto;
 }
 
-.side-bar {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(241, 242, 228);
-  padding: 1.5rem;
-  width: 15%;
-  height: 100vh;
-}
 
-ul, li {
-  list-style-type: none;
-  padding: 0;
-}
 
 @media screen and (max-width: 500px) {
   .side-bar {
@@ -120,12 +121,3 @@ ul, li {
     left: 5%;
   }
 }
-
-/* //////////////////////
-  INDIVIDUAL ARTICLE
-  /////////////////////// */
-
-/* //////////////////////
-  ARTICLE SNIPPET
-  /////////////////////// */
-

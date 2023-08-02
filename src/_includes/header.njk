@@ -1,10 +1,19 @@
-<header class="side-bar">
-  <div class="title_1">
-    <a href="/">Mona Thijs</a>
-  </div>
-  <ul class="projects">
-    {%- for post in collections.post | reverse -%}
-      {% include 'project-snippet.njk' %}
-    {%- endfor -%}
+<header
+  class="side-bar">
+  {# not working: LINK TO INDEX.NJK #}
+  <a class="mona-thijs" href="/">Mona Thijs</a>
+  <ul>
+    <a href="">contact</a>
   </ul>
+  <nav>
+    <ul class="projects_list">
+      {%- for project in collections.project | reverse -%}
+        <li class="project_list">
+          {# not working: don't know how to create a dynamic url #}
+          {# not working: only the first link is working#}<a href="{{ project.url }}" class="snippet__title">{{ project.data.title }}</a>
+          <img src="{{ project.data.image }}" alt=""></li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+  </nav>
 </header>
