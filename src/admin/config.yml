@@ -11,11 +11,11 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name:  "project"
+  - name: "project"
     label: "Project"
     folder: "src/projects" #plek beschijven waar nieuwe uploads terecht komen
     create: true #ervoor zorgen dat er posts kunnen worden bijgemaakt
-     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Featured Image", name: "image", widget: "image" }
